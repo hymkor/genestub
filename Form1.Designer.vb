@@ -60,9 +60,9 @@ Partial Class GENESTUB
         Me.Label1.AutoSize = True
         Me.Label1.Location = New System.Drawing.Point(6, 10)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(197, 12)
+        Me.Label1.Size = New System.Drawing.Size(136, 12)
         Me.Label1.TabIndex = 1
-        Me.Label1.Text = "このプログラムは以下のように呼ばれました"
+        Me.Label1.Text = "Command-line arguments"
         '
         'TextBoxCmdline
         '
@@ -115,7 +115,7 @@ Partial Class GENESTUB
         Me.ButtonFinish.Name = "ButtonFinish"
         Me.ButtonFinish.Size = New System.Drawing.Size(92, 30)
         Me.ButtonFinish.TabIndex = 6
-        Me.ButtonFinish.Text = "終了"
+        Me.ButtonFinish.Text = "Close"
         Me.ButtonFinish.UseVisualStyleBackColor = True
         '
         'TextBoxResult
@@ -132,11 +132,11 @@ Partial Class GENESTUB
         '
         Me.Label2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Label2.AutoSize = True
-        Me.Label2.Location = New System.Drawing.Point(367, 306)
+        Me.Label2.Location = New System.Drawing.Point(326, 305)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(37, 12)
+        Me.Label2.Size = New System.Drawing.Size(78, 12)
         Me.Label2.TabIndex = 8
-        Me.Label2.Text = "戻り値"
+        Me.Label2.Text = "ERRORLEVEL"
         Me.Label2.TextAlign = System.Drawing.ContentAlignment.BottomRight
         '
         'TabControl1
@@ -186,9 +186,9 @@ Partial Class GENESTUB
         Me.Label4.AutoSize = True
         Me.Label4.Location = New System.Drawing.Point(12, 10)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(53, 12)
+        Me.Label4.Size = New System.Drawing.Size(152, 12)
         Me.Label4.TabIndex = 1
-        Me.Label4.Text = "標準出力"
+        Me.Label4.Text = "Set text to write to STDOUT"
         '
         'TextBoxStdOut
         '
@@ -215,9 +215,9 @@ Partial Class GENESTUB
         Me.Label3.AutoSize = True
         Me.Label3.Location = New System.Drawing.Point(11, 11)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(80, 12)
+        Me.Label3.Size = New System.Drawing.Size(152, 12)
         Me.Label3.TabIndex = 1
-        Me.Label3.Text = "標準エラー出力"
+        Me.Label3.Text = "Set text to write to STDERR"
         '
         'TextBoxStdErr
         '
@@ -274,9 +274,9 @@ Partial Class GENESTUB
         Me.Label5.AutoSize = True
         Me.Label5.Location = New System.Drawing.Point(10, 10)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(53, 12)
+        Me.Label5.Size = New System.Drawing.Size(120, 12)
         Me.Label5.TabIndex = 0
-        Me.Label5.Text = "環境変数"
+        Me.Label5.Text = "Environment Variables"
         '
         'TabPage1
         '
